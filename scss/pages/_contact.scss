@@ -1,0 +1,10 @@
+// _contact.scss
+#contact {
+    height: 100vh;
+    background-image: url("path/to/contact-background.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

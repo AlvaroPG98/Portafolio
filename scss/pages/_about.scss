@@ -1,0 +1,18 @@
+// _about.scss
+#about .container {
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+    background-color: $primary-color;
+    height: calc(100vh + 3rem);
+    align-items: center;
+  }
+  
+  #about .content {
+    color: $text-color;
+    padding-inline: 6rem;
+  }
+  
+  #about .content h2 {
+    font-size: 64px;
+    color: $accent-color;
+  }

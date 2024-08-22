@@ -1,0 +1,14 @@
+// _start.scss
+#start {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #start .bottom-triangles {
+    background-image: url("path/to/svg");
+    width: 100%;
+    height: 3rem;
+    animation: slideToLeft 36s infinite linear;
+  }

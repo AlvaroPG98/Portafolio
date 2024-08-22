@@ -1,0 +1,16 @@
+// _courses.scss
+#courses {
+    padding-inline: 3rem;
+  }
+  
+  #courses .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 15vh;
+  }
+  
+  #courses h2 {
+    color: $primary-color;
+    font-weight: 700;
+  }
